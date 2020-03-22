@@ -1,0 +1,128 @@
+body {
+  background-color: #484848;
+  color: #ececec;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw; }
+
+a {
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  position: relative; }
+  .container .screen-by-two {
+    height: 100vh;
+    width: 50vw; }
+    .container .screen-by-two .background-image {
+      height: 100%;
+      width: 100%; }
+  .container .hi {
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+    font-size: 30px;
+    color: #eaeaea; }
+  .container .screen-by-two {
+    width: 50vw;
+    height: 100vh;
+    background-color: #eaeaea; }
+
+.navigation-button {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px; }
+  .navigation-button a {
+    text-decoration: none;
+    color: white; }
+  .navigation-button:hover {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px; }
+    .navigation-button:hover a {
+      color: black;
+      padding-left: 2px;
+      padding-right: 2px; }
+
+.projects-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer; }
+  .projects-button a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background: none; }
+  .projects-button:hover {
+    border-color: #7b7979; }
+    .projects-button:hover a {
+      color: #7b7979; }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.link-image {
+  background-color: transparent;
+  border: none; }
+  .link-image img {
+    width: 100%;
+    height: 100%; }
+
+.linkedin {
+  max-width: 60px; }
+
+.github {
+  max-width: 84px; }
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.my-bio {
+  font-size: 20px;
+  line-height: 60px;
+  color: #4a4a4a;
+  line-height: 50px;
+  bottom: 90vh;
+  margin: 2rem; }
+
+.projects-container {
+  height: 100vh;
+  width: 100vw; }
+
+.projects {
+  display: flex;
+  height: 100vh;
+  width: 100vw; }
+
+.project {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .project img {
+    max-width: 150px;
+    bottom: 15vh; }
+
+.project-contents {
+  display: flex;
+  width: 100%;
+  max-width: 80%; }
