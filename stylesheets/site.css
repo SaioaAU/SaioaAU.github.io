@@ -166,3 +166,20 @@ h3 {
         padding: 1rem; }
     .container .center-content {
       padding: 1rem; } }
+
+@media only screen and (max-device-width: 480px) {
+  .projects-container {
+    flex-direction: column;
+    height: auto;
+    width: auto; }
+    .projects-container .projects {
+      flex-direction: column; }
+    .projects-container .project-contents {
+      max-width: initial;
+      flex-direction: column; }
+    .projects-container h1 {
+      display: none; }
+    .projects-container img {
+      height: 60vh; }
+    .projects-container .center {
+      width: 100vw; } }
