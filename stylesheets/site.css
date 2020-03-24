@@ -174,6 +174,8 @@ h3 {
     width: auto; }
     .projects-container .projects {
       flex-direction: column; }
+    .projects-container .project {
+      height: 100vh; }
     .projects-container .project-contents {
       max-width: initial;
       flex-direction: column; }
